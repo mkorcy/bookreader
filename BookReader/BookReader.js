@@ -469,7 +469,7 @@ BookReader.prototype.drawLeafsOnePage = function() {
         leafTop += parseInt(this._getPageHeight(i)/this.reduce) +10;
     }
 
-	//center the page vertically
+    //center the page vertically
     if (this.numLeafs == 1)
     {
         var containerHeight = $('#BRcontainer').height();
